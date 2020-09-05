@@ -326,7 +326,7 @@ button:active {
   height: 320px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./images/project in your mind.png");
+  background: #0f0f0d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -352,8 +352,11 @@ button:active {
 .contact-me a {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 0px;
+}
+.contact-me .contact {
+  font-size: 20px;
 }
 .tel-btn {
   width: 200px;
