@@ -326,7 +326,7 @@ button:active {
   height: 320px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../images/project in your mind.png");
+  background-image: url("./images/project in your mind.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
