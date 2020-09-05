@@ -117,6 +117,7 @@ button:hover {
 
 .model {
   height: 560px;
+  min-height: 400px;
   position: absolute;
   bottom: 0;
   left: 80%;
@@ -595,5 +596,11 @@ footer {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+}
+
+@media (max-height: 760px) {
+  .model img {
+    max-height: 480px;
   }
 }
