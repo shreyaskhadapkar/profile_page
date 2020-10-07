@@ -45,6 +45,11 @@ nav {
   color: #fff;
 }
 
+.nav-links ul li a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 4px;
+}
+
 .information {
   width: 1000px;
   height: 1000px;
